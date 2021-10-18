@@ -1,6 +1,6 @@
 # JMS Security Keycloak Example
 
-To run the example, simply type **mvn verify** from this directory, or **mvn -PnoServer verify** if you want to start and create the broker manually.
+To run the example, type **mvn verify** from this directory or type **mvn -PnoServer verify** to start and create the broker manually.
 
 In this example, broker authentication is delegated to keycloak. A keycloak server is installed and configured with
 a demo realm called "artemis-keycloak-demo".
